@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Arctic: Zephyr - Reloaded
-# Addon id: skin.arctic.zephyr.mod
-# Addon Provider: jurialmunkey, beatmasterrs
+# Addon Name: Arctic: Zephyr - Phoenix
+# Addon id: skin.arctic.zephyr.phoenix
+# Addon Provider: rockafella83
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Skins\n"
@@ -90,8 +90,8 @@ msgid "Colored icon media flags"
 msgstr "彩色图标媒体标识"
 
 msgctxt "#31018"
-msgid "Arctic: Zephyr - Reloaded"
-msgstr "ARTIC: ZEPHYR - RELOADED"
+msgid "Arctic: Zephyr - Phoenix"
+msgstr "ARTIC: Zephyr - Phoenix"
 
 msgctxt "#31019"
 msgid "Supported Addons"
@@ -554,8 +554,8 @@ msgid "All colors are reset to their default values"
 msgstr "所有颜色重置为默认值"
 
 msgctxt "#31137"
-msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
-msgstr "[CR]Arctic: Zephyr - Reloaded是从jurialmunkey设计的Arctic皮肤衍生而来。[CR]此皮肤着重强调简洁。[CR]如果你对此有任何建议，都可到此反馈给我。[CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgid "[CR]Arctic: Zephyr - Phoenix is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgstr "[CR]Arctic: Zephyr - Phoenix是从jurialmunkey设计的Arctic皮肤衍生而来。[CR]此皮肤着重强调简洁。[CR]如果你对此有任何建议，都可到此反馈给我。[CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
 
 msgctxt "#31138"
 msgid "Content Loading"
@@ -2612,3 +2612,7 @@ msgstr ""
 #~ msgctxt "#31070"
 #~ msgid "Hide votes"
 #~ msgstr "隐藏投票"
+
+msgctxt "#31702"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

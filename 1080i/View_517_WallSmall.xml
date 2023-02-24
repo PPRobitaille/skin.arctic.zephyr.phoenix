@@ -63,7 +63,7 @@
 
             <!-- Scrollbar Start -->
             <control type="scrollbar" id="1604">
-                <include content="scrollbar_vertical">
+                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_vertical">
                     <param name="scrollid" value="1604"/>
                 </include>
             </control>

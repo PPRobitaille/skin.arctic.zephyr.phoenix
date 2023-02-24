@@ -62,7 +62,7 @@
             <include>ViewSlideForJumpBar</include>
             <include>View_523_Minimal_V2_Content_Music</include>
             <control type="scrollbar" id="1644">
-                <include content="scrollbar_hor">
+                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
                     <param name="scrollid" value="1644"/>
                     <param name="jumpbar" value="true"/>
                     <param name="bottom" value="184"/>

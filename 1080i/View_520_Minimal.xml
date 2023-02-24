@@ -260,7 +260,7 @@
                 </control>
             </control>
             <control type="scrollbar" id="1658">
-                <include content="scrollbar_hor">
+                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
                     <param name="scrollid" value="1658"/>
                     <param name="jumpbar" value="false"/>
                     <param name="bottom" value="162"/>

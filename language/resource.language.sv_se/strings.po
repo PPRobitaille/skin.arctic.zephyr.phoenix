@@ -1,7 +1,7 @@
 # Kodi Media Center language file
-# Addon Name: Arctic: Zephyr - Reloaded
-# Addon id: skin.arctic.zephyr.mod
-# Addon Provider: jurialmunkey, beatmasterrs
+# Addon Name: Arctic: Zephyr - Phoenix
+# Addon id: skin.arctic.zephyr.phoenix
+# Addon Provider: rockafella83
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Skins\n"
@@ -90,7 +90,7 @@ msgid "Colored icon media flags"
 msgstr ""
 
 msgctxt "#31018"
-msgid "Arctic: Zephyr - Reloaded"
+msgid "Arctic: Zephyr - Phoenix"
 msgstr ""
 
 msgctxt "#31019"
@@ -554,7 +554,7 @@ msgid "All colors are reset to their default values"
 msgstr ""
 
 msgctxt "#31137"
-msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgid "[CR]Arctic: Zephyr - Phoenix is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
 msgstr ""
 
 msgctxt "#31138"
@@ -2584,3 +2584,7 @@ msgstr ""
 #~ msgctxt "#31149"
 #~ msgid "Replace widget fanart with home background slideshow"
 #~ msgstr "Ersätt widget fanart med bildspel för hem bakgrunden"
+
+msgctxt "#31702"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

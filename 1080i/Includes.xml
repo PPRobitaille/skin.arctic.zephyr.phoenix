@@ -80,7 +80,7 @@
     <expression name="Widget5Enabled">String.IsEqual(Container(300).ListItem.Property(widgetEnable.5),yes)</expression>
     <expression name="Widget6Enabled">String.IsEqual(Container(300).ListItem.Property(widgetEnable.6),yes)</expression>
     <expression name="HasHomemenuAutoSlideOutAnimation">Skin.HasSetting(homemenu.slide) + !Skin.HasSetting(only.hide.if.widgetcontainer.gets.focus) + [[$EXP[HomeIsModernMultiWidgets] + !Skin.HasSetting(homemenu.clean.flix)] | [$EXP[HomeIsVerticalMultiWidgets] + !Skin.HasSetting(homemenu.vertical.noslide)]]</expression>
-    
+
     <expression name="IsPVRVideo">!Player.HasAudio + VideoPlayer.Content(livetv)</expression>
     <expression name="IsPVRAudio">Player.HasAudio + VideoPlayer.Content(livetv)</expression>
     <expression name="IsAudio">Player.HasAudio + !VideoPlayer.Content(livetv)</expression>
@@ -171,7 +171,7 @@
             | String.IsEqual(Window(Home).Property(LatestEpisode.10.EpisodeTitle),ListItem.Title)
           ]
     </expression>
-    
+
     <expression name="IsNewMovie301">
         [Container.Content(movies) | Window.isVisible(Home.xml)]
         + [
@@ -219,13 +219,13 @@
     </expression>
 
     <expression name="InGameMode">
-        [ String.Contains(Container.FolderPath,plugin://plugin.program.ael) 
-        | String.Contains(Container.FolderPath,plugin://plugin.program.advanced.launcher) 
-        | String.Contains(Container.FolderPath,plugin://plugin.program.advanced.emulator.launcher) 
-        | String.Contains(Container.FolderPath,plugin://plugin.program.akl) 
-        | String.Contains(Container.FolderPath,plugin://plugin.program.advanced.MAME.launcher) 
-        | String.Contains(Container.FolderPath,plugin://plugin.program.iagl) 
-        | Window.IsActive(games) 
+        [ String.Contains(Container.FolderPath,plugin://plugin.program.ael)
+        | String.Contains(Container.FolderPath,plugin://plugin.program.advanced.launcher)
+        | String.Contains(Container.FolderPath,plugin://plugin.program.advanced.emulator.launcher)
+        | String.Contains(Container.FolderPath,plugin://plugin.program.akl)
+        | String.Contains(Container.FolderPath,plugin://plugin.program.advanced.MAME.launcher)
+        | String.Contains(Container.FolderPath,plugin://plugin.program.iagl)
+        | Window.IsActive(games)
         | Container.Content(games) ]
     </expression>
 
@@ -236,7 +236,7 @@
 
     <include name="ScrolltimeWidgetsList">
         <scrolltime tween="quadratic">300</scrolltime>
-    </include>  
+    </include>
 
     <include name="ScrolltimeWidgetsContainer">
         <scrolltime tween="sine" easing="inout">350</scrolltime>
@@ -448,6 +448,11 @@
 
     <variable name="StartupDiffuse">
         <value condition="String.IsEmpty(Skin.String(startupfanart.fallback))">Background</value>
+        <value/>
+    </variable>
+
+    <variable name="ScrollbarVisibility">
+        <value condition="Skin.HasSetting(disable.scrollbar.visibility)">test</value>
         <value/>
     </variable>
 
@@ -687,7 +692,7 @@
     <include name="ImagePathBlurLitebox">
         <imagepath background="true">$INFO[Window(home).Property(ImageFilterFIVE)]</imagepath>
     </include>
-    
+
     <include name="ImagePathBlurEmbuary">
         <imagepath background="true">$INFO[Window(home).Property(listitem_blurred)]</imagepath>
     </include>
@@ -728,7 +733,7 @@
             <visible>$EXP[TrailerWindowIsActive] + !$EXP[ExtendedNowPlayingIsVisible]</visible>
             <include condition="![$EXP[HomeIsCleanMinimal] + Window.IsVisible(Home)]">DefTrailerVideoWindowSmall</include>
             <include condition="$EXP[HomeIsCleanMinimal] + Window.IsVisible(Home)">DefTrailerVideoWindowFullscreen</include>
-        </control>        
+        </control>
         <control type="image" description="Background">
             <animation effect="slide" start="0,0" end="0,-90" time="0" condition="Skin.HasSetting(home.netflix.autoplay.trailer.custom.window.force)">Conditional</animation>
             <animation effect="slide" start="0,0" end="0,-50" time="0" condition="Skin.HasSetting(home.netflix.autoplay.trailer.custom.window) + String.IsEqual(VideoPlayer.VideoAspect,1.85) + !String.IsEmpty(VideoPlayer.VideoAspect)">Conditional</animation>
@@ -739,7 +744,7 @@
             <texture colordiffuse="Background">common/trailerwindow.png</texture>
         </control>
     </include>
-    
+
     <include name="BlurImageEmbuary">
         <control type="image" id="100000">
             <left>-3000</left>
@@ -750,7 +755,7 @@
             <visible>!Window.IsVisible(Custom_Blur.xml)</visible>
         </control>
     </include>
-    
+
     <include name="BlurImageLitebox">
         <control type="multiimage" id="7975">
             <left>-2160</left>
@@ -764,9 +769,9 @@
         </control>
     </include>
 
-    <include name="GlobalBackground">        
+    <include name="GlobalBackground">
         <include condition="Skin.HasSetting(EnableEffects) + !Skin.HasSetting(BlurEnabled)">BlurImageLitebox</include>
-        <include condition="Skin.HasSetting(EnableEffects) + Skin.HasSetting(BlurEnabled)">BlurImageEmbuary</include>        
+        <include condition="Skin.HasSetting(EnableEffects) + Skin.HasSetting(BlurEnabled)">BlurImageEmbuary</include>
         <include condition="!Skin.HasSetting(global.showvideo) + Skin.HasSetting(background.video.fix.audio.errors)">HiddenVideoWindow</include>
         <include>GlobalVideoWindow</include>
         <include condition="Skin.HasSetting(global.showvisualisation) + !String.IsEmpty(Visualisation.Name)">GlobalVisualisation</include>
@@ -822,7 +827,7 @@
             <label>$INFO[ListItem.Art(tvshow.fanart20)]</label>
             <pauseatend>HomeTimePerImage</pauseatend>
         </control>
-        
+
         <!-- Visualisation Overlay -->
         <control type="image" description="Background">
             <include>Dimensions_Fullscreen</include>
@@ -926,7 +931,7 @@
             <include>Animation.Animate.Fanart</include>
             <include>Animation.AutoTrailer.FadeOut.Background</include>
         </control>
-        
+
         <!-- Final Overlays -->
         <control type="image" description="FanartOverlay">
             <visible>[!Skin.HasSetting(homemenu.clean.flix) + !$EXP[HomeIsSpotlight] + !$EXP[HomeIsClassic] + !$EXP[HomeIsModern]] | !Window.IsVisible(Home.xml)</visible>
@@ -1660,7 +1665,7 @@
                     <param name="icon" value="buttonsdialogs/info.png"/>
                 </include>
             </control>
-            
+
             <!-- Trailer - ListItem.Trailer | IMDB.Trailer | Bingie.Helper -->
             <control type="radiobutton" id="1224">
                 <onfocus>ClearProperty(moviecontent)</onfocus>
@@ -1669,11 +1674,11 @@
                 <include content="buttontextures">
                     <param name="icon" value="buttonsdialogs/trailer.png"/>
                 </include>
-                <visible>!Skin.HasSetting(PlayTrailerWindowed) + [[Skin.HasSetting(Use.IMDB.Trailer) + System.AddonIsEnabled(plugin.video.imdb.trailers) + !String.IsEmpty(ListItem.IMDBNumber)] | [!Skin.HasSetting(Use.IMDB.Trailer) + String.IsEmpty(ListItem.Trailer) + System.AddonIsEnabled(script.bingie.helper)] | [!Skin.HasSetting(Use.IMDB.Trailer) + !String.IsEmpty(ListItem.Trailer)]]</visible>                
-                <onclick condition="Skin.HasSetting(Use.IMDB.Trailer) | String.IsEmpty(ListItem.Trailer)">Dialog.Close(2003)</onclick>                
+                <visible>!Skin.HasSetting(PlayTrailerWindowed) + [[Skin.HasSetting(Use.IMDB.Trailer) + System.AddonIsEnabled(plugin.video.imdb.trailers) + !String.IsEmpty(ListItem.IMDBNumber)] | [!Skin.HasSetting(Use.IMDB.Trailer) + String.IsEmpty(ListItem.Trailer) + System.AddonIsEnabled(script.bingie.helper)] | [!Skin.HasSetting(Use.IMDB.Trailer) + !String.IsEmpty(ListItem.Trailer)]]</visible>
+                <onclick condition="Skin.HasSetting(Use.IMDB.Trailer) | String.IsEmpty(ListItem.Trailer)">Dialog.Close(2003)</onclick>
                 <onclick condition="!Skin.HasSetting(Use.IMDB.Trailer) + !String.IsEmpty(ListItem.Trailer)">SendClick(11)</onclick>
                 <onclick condition="!Skin.HasSetting(Use.IMDB.Trailer) + String.IsEmpty(ListItem.Trailer) + System.AddonIsEnabled(script.bingie.helper)">RunScript(script.bingie.helper,action=playtrailer,MODE=fullscreen,title=$INFO[ListItem.Title],local=true)</onclick>
-                <onclick condition="Skin.HasSetting(Use.IMDB.Trailer)">PlayMedia(plugin://plugin.video.imdb.trailers/?action=play_id&amp;imdb=$INFO[ListItem.IMDBNumber])</onclick>                
+                <onclick condition="Skin.HasSetting(Use.IMDB.Trailer)">PlayMedia(plugin://plugin.video.imdb.trailers/?action=play_id&amp;imdb=$INFO[ListItem.IMDBNumber])</onclick>
                 <visible>!Skin.HasSetting(hidebutton.video.trailer)</visible>
             </control>
 
@@ -2876,7 +2881,7 @@
             <info>Player.Chapters</info>
         </control>
     </include>
-    
+
     <include name="ProgressBarInfo">
         <control type="ranges">
             <visible>Skin.HasSetting(cutlist.markers)</visible>
@@ -3308,7 +3313,7 @@
     <variable name="AlbumPath">
         <value condition="ListItem.IsFolder + String.IsEqual(ListItem.DBType,album)">$INFO[ListItem.FolderPath]</value>
     </variable>
-    
+
     <variable name="ActorPath">
         <value condition="ListItem.IsFolder + String.IsEqual(Container(301).ListItem.DBType,actor)">$INFO[Container(301).ListItem.FolderPath]</value>
         <value condition="ListItem.IsFolder + String.IsEqual(ListItem.DBType,actor)">$INFO[ListItem.FolderPath]</value>
@@ -3406,7 +3411,7 @@
                 <label>[COLOR=FF00DD44]&#10003;[/COLOR]</label>
                 <visible>!Container($PARAM[id]).ListItem.IsPlaying + String.IsEqual(Container($PARAM[id]).ListItem.Overlay,OverlayWatched.png) + !Container($PARAM[id]).ListItem.IsResumable + !Skin.HasSetting(hide.markers.watched)</visible>
             </control>
-            
+
             <!-- Is Playing -->
             <control type="label">
                 <include>Def_Watched_Indicators_Clean</include>
@@ -4773,7 +4778,7 @@
         <value condition="Skin.HasSetting(home.netflix.autoplay.trailer)">special://skin/extras/playlists/Spotlight.xsp</value>
         <value>special://skin/extras/playlists/RandomMovies.xsp</value>
     </variable>
-    
+
     <include name="BusySpinner">
         <param name="color" default="Dark1"/>
         <definition>
@@ -4808,9 +4813,9 @@
         </control>
         </definition>
     </include>
-    
+
     <include name="MousePointer">
-    
+
         <!-- Pointer -->
         <control type="image" id="1">
             <width>40</width>
@@ -4843,9 +4848,9 @@
             <visible>Skin.HasSetting(hide.mouse.warning)</visible>
         </control>
     </include>
-    
+
     <include name="MouseWarning">
-    
+
         <!-- Pointer -->
         <control type="image" id="1">
             <width>200</width>
@@ -4878,12 +4883,12 @@
             <visible>!Skin.HasSetting(hide.mouse.warning)</visible>
         </control>
     </include>
-    
+
     <include name="arrowdimensions">
         <width>16</width>
         <height>16</height>
     </include>
-    
+
     <include name="EffectsPreviewImage">
         <control type="image">
             <texture background="true">$PARAM[texture]</texture>
@@ -4903,7 +4908,7 @@
             <animation effect="fade" end="60" start="100" time="0" condition="Integer.IsEqual(Skin.String(BackgroundBrightnessBlur),60)">Conditional</animation>
         </control>
     </include>
-    
+
     <include name="border_texture">
         <param name="colordiffuse" default="BoxWidget"/>
         <definition>
@@ -4911,16 +4916,16 @@
         <bordertexture border="4" colordiffuse="$PARAM[colordiffuse]" infill="false">common/box21.png</bordertexture>
         </definition>
     </include>
-    
+
     <variable name="UpNextEpisodePath">
         <value condition="String.IsEqual(ListItem.DBType,tvshow) + Integer.IsGreater(ListItem.Property(UnwatchedEpisodes),0) + !String.IsEmpty(ListItem.DBID)">videodb://inprogresstvshows/$INFO[ListItem.DBID]/-2/?tvshowid=$INFO[ListItem.DBID]</value>
     </variable>
-    
+
     <variable name="TMDbHelper_InfoList_Content">
         <value condition="String.IsEqual(Window(home).Property(extendedtype),tv)">plugin://plugin.video.themoviedb.helper/?info=details&amp;type=tv&amp;query=$INFO[Container(10051).ListItem.Label]</value>
         <value>plugin://plugin.video.themoviedb.helper/?info=details&amp;type=movie&amp;query=$INFO[Container(10051).ListItem.Label]</value>
     </variable>
-    
+
     <include name="PosterDiscCase">
         <param name="discposition" default="5"/>
         <definition>
@@ -4977,7 +4982,7 @@
         </control>
         </definition>
     </include>
-    
+
     <variable name="AutoCompletionPath">
         <value condition="System.AddonIsEnabled(plugin.program.autocompletion)">plugin://plugin.program.autocompletion?info=autocomplete&amp;&amp;id=$INFO[Control.GetLabel(312).index(1)]&amp;&amp;limit=9</value>
     </variable>

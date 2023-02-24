@@ -16,8 +16,7 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <license>Creative Commons Non Commercial 3.0 License</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=337862</forum>
-        <source>https://github.com/beatmasterRS/skin.arctic.zephyr.mod</source>
+        <source>https://github.com/PPRobitaille/skin.arctic.zephyr.phoenix</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
@@ -45,10 +44,10 @@
         <summary lang="pl">Prosta, minimalista, elegancka i lekka. Na podstawie oryginalnego skinu Arctic: Zephyr autorstwa rockafella83.</summary>
         <summary lang="ro">Curat, minimalist, elegant, simplu, ușor. Bazat pe pielea originală Arctic: Zephyr de rockafella83.</summary>
         <summary lang="ru">Опрятный, минималистичный, элегантный, простой, светлый. Основано на оригинальном скине Arctic: Zephyr от rockafella83.</summary>
-        <description lang="de">Arctic: Zephyr - Reloaded basiert auf dem original Arctic: Zephyr Skin von rockafella83 und ist ein minimalistisches, klares und simples Interface für deine Medien mit dem gewissen Etwas.</description>
-        <description lang="en">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by rockafella83. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
-        <description lang="en_AU">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by rockafella83. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
-        <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by rockafella83. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
-        <description lang="fr">Arctic: Zephyr - Reloaded est basé sur le skin original Arctic: Zephyr, créé par rockafella83. Arctic se focalise sur le fait d&apos;être simple, claire et minimaliste.</description>
+        <description lang="de">Arctic: Zephyr - Phoenix basiert auf dem original Arctic: Zephyr Skin von rockafella83 und ist ein minimalistisches, klares und simples Interface für deine Medien mit dem gewissen Etwas.</description>
+        <description lang="en">Arctic: Zephyr - Phoenix is based on original Arctic: Zephyr skin, created by rockafella83. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="en_AU">Arctic: Zephyr - Phoenix is based on original Arctic: Zephyr skin, created by rockafella83. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="en_US">Arctic: Zephyr - Phoenix is based on original Arctic: Zephyr skin, created by rockafella83. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <description lang="fr">Arctic: Zephyr - Phoenix est basé sur le skin original Arctic: Zephyr, créé par rockafella83. Arctic se focalise sur le fait d&apos;être simple, claire et minimaliste.</description>
     </extension>
 </addon>

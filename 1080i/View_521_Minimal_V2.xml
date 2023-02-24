@@ -28,7 +28,7 @@
         </include>
         <include content="def_focusposition" condition="Skin.HasSetting(521.alternative)">
             <param name="focusposition" value="5" />
-        </include>        
+        </include>
         <viewtype label="31491">list</viewtype>
         <include>ScrolltimeViewsList</include>
         <itemlayout height="325" width="222">
@@ -85,7 +85,7 @@
             <visible>Control.IsVisible(521)</visible>
             <include>View_522_Minimal_V2_Content</include>
             <control type="scrollbar" id="1611">
-                <include content="scrollbar_hor">
+                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
                     <param name="scrollid" value="1611"/>
                     <param name="jumpbar" value="true"/>
                     <param name="bottom" value="184"/>
