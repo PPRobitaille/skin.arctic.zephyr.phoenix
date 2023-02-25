@@ -54,7 +54,7 @@
                 </focusedlayout>
             </control>
             <control type="scrollbar" id="1734">
-                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
+                <include content="scrollbar_hor">
                     <param name="scrollid" value="1734"/>
                     <param name="bottom" value="560"/>
                 </include>

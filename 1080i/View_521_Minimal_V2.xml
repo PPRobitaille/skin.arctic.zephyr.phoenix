@@ -85,7 +85,7 @@
             <visible>Control.IsVisible(521)</visible>
             <include>View_522_Minimal_V2_Content</include>
             <control type="scrollbar" id="1611">
-                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
+                <include content="scrollbar_hor">
                     <param name="scrollid" value="1611"/>
                     <param name="jumpbar" value="true"/>
                     <param name="bottom" value="184"/>
