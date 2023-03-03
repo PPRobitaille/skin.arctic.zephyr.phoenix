@@ -51,6 +51,7 @@
                         <include content="include.widget.poster">
                             <param name="id" value="509"/>
                             <param name="height" value="370"/>
+                            <param name="glow_height" value="365"/>
                             <param name="indicatorbackground" value="true"/>
                             <param name="reflections" value="Skin.HasSetting(show.reflections)"/>
                         </include>
@@ -62,6 +63,7 @@
                         <include content="include.widget.poster.focus">
                             <param name="id" value="509"/>
                             <param name="height" value="370"/>
+                            <param name="glow_height" value="365"/>
                             <param name="indicatorbackground" value="true"/>
                             <param name="reflections" value="Skin.HasSetting(show.reflections)"/>
                         </include>
