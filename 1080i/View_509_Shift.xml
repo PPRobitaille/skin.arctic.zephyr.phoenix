@@ -10,7 +10,7 @@
             <visible>Control.IsVisible(509)</visible>
             <control type="label">
                 <visible>!Skin.HasSetting(509clearlogo) | [!$EXP[TitleClearlogoAvailable] + Skin.HasSetting(509clearlogo)]</visible>
-                <top>205</top>
+                <top>255</top>
                 <include condition="!Skin.HasSetting(509NoCenter)">CenterInfo</include>
                 <left>SidePad</left>
                 <description>Header Label</description>
@@ -21,7 +21,7 @@
             <control type="image" description="clearlogo">
                 <animation effect="slide" start="0,0" end="-735,0" time="200" condition="Skin.HasSetting(509NoCenter)">Conditional</animation>
                 <visible>$EXP[TitleClearlogoAvailable] + Skin.HasSetting(509clearlogo)</visible>
-                <top>170</top>
+                <top>220</top>
                 <height>102</height>
                 <centerleft>50%</centerleft>
                 <aspectratio scalediffuse="true" align="center">keep</aspectratio>
@@ -30,7 +30,7 @@
             </control>
             <control type="panel" id="509">
                 <visible>Container.Content(movies) | Container.Content(musicvideos) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(sets) | Container.Content(videos) | $EXP[InGameMode]</visible>
-                <top>300</top>
+                <top>350</top>
                 <left>71</left>
                 <width>1780</width>
                 <height>450</height>
@@ -47,11 +47,9 @@
                 <include>ScrolltimeViewsList</include>
                 <itemlayout height="450" width="253" condition="!Skin.HasSetting(509fanart)">
                     <control type="group">
-                        <height>370</height>
+                        <height>450</height>
                         <include content="include.widget.poster">
                             <param name="id" value="509"/>
-                            <param name="height" value="370"/>
-                            <param name="glow_height" value="365"/>
                             <param name="indicatorbackground" value="true"/>
                             <param name="reflections" value="Skin.HasSetting(show.reflections)"/>
                         </include>
@@ -59,19 +57,17 @@
                 </itemlayout>
                 <focusedlayout height="450" width="253" condition="!Skin.HasSetting(509fanart)">
                     <control type="group">
-                        <height>370</height>
+                        <height>450</height>
                         <include content="include.widget.poster.focus">
                             <param name="id" value="509"/>
-                            <param name="height" value="370"/>
-                            <param name="glow_height" value="365"/>
                             <param name="indicatorbackground" value="true"/>
                             <param name="reflections" value="Skin.HasSetting(show.reflections)"/>
                         </include>
                     </control>
                 </focusedlayout>
-                <itemlayout height="450" width="592.33" condition="Skin.HasSetting(509fanart) + !Skin.HasSetting(509fanartclearart)">
+                <itemlayout height="332" width="592.33" condition="Skin.HasSetting(509fanart) + !Skin.HasSetting(509fanartclearart)">
                     <control type="group">
-                        <height>370</height>
+                        <height>325</height>
                         <include content="include.widget.landscape">
                             <param name="id" value="509"/>
                             <param name="indicatorbackground" value="true"/>
@@ -79,9 +75,9 @@
                         </include>
                     </control>
                 </itemlayout>
-                <itemlayout height="450" width="592.33" condition="Skin.HasSetting(509fanart) + Skin.HasSetting(509fanartclearart)">
+                <itemlayout height="332" width="592.33" condition="Skin.HasSetting(509fanart) + Skin.HasSetting(509fanartclearart)">
                     <control type="group">
-                        <height>370</height>
+                        <height>325</height>
                         <include content="include.widget.landscape">
                             <param name="id" value="509"/>
                             <param name="indicatorbackground" value="true"/>
@@ -90,9 +86,9 @@
                         </include>
                     </control>
                 </itemlayout>
-                <focusedlayout height="450" width="592.33" condition="Skin.HasSetting(509fanart) + !Skin.HasSetting(509fanartclearart)">
+                <focusedlayout height="332" width="592.33" condition="Skin.HasSetting(509fanart) + !Skin.HasSetting(509fanartclearart)">
                     <control type="group">
-                        <height>370</height>
+                        <height>325</height>
                         <include content="include.widget.landscape.focus">
                             <param name="id" value="509"/>
                             <param name="indicatorbackground" value="true"/>
@@ -102,9 +98,9 @@
                         </include>
                     </control>
                 </focusedlayout>
-                <focusedlayout height="450" width="592.33" condition="Skin.HasSetting(509fanart) + Skin.HasSetting(509fanartclearart)">
+                <focusedlayout height="332" width="592.33" condition="Skin.HasSetting(509fanart) + Skin.HasSetting(509fanartclearart)">
                     <control type="group">
-                        <height>370</height>
+                        <height>325</height>
                         <include content="include.widget.landscape.focus">
                             <param name="id" value="509"/>
                             <param name="indicatorbackground" value="true"/>
