@@ -110,7 +110,7 @@
                     <content target="videos" sortby="episode" sortorder="ascending">$INFO[Container(516).ListItem.FolderPath]</content>
                 </control>
                 <control type="scrollbar" id="1603">
-                    <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_vertical">
+                    <include content="scrollbar_vertical">
                         <param name="scrollid" value="1603"/>
                         <param name="jumpbar" value="false"/>
                     </include>

@@ -35,7 +35,7 @@
             </include>
         </focusedlayout>
     </include>
-
+    
     <include name="527Wrap">
         <control type="wraplist" id="527">
             <include>527Content</include>
@@ -47,13 +47,13 @@
             <include>527Content</include>
         </control>
     </include>
-
+    
     <include name="527List">
         <control type="panel" id="527">
             <include>527Content</include>
         </control>
     </include>
-
+    
     <include name="View_527_List_V2">
         <control type="group">
             <include>Animation.Common</include>
@@ -100,7 +100,7 @@
                 </control>
             </control>
             <control type="scrollbar" id="1727">
-                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
+                <include content="scrollbar_hor">
                     <param name="scrollid" value="1727"/>
                     <param name="jumpbar" value="true"/>
                     <param name="left" value="540"/>
