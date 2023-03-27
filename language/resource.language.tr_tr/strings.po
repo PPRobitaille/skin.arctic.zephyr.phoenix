@@ -1,13 +1,13 @@
 # Kodi Media Center language file
-# Addon Name: Arctic: Zephyr - Phoenix
-# Addon id: skin.arctic.zephyr.phoenix
-# Addon Provider: rockafella83
+# Addon Name: Arctic: Zephyr - Reloaded
+# Addon id: skin.arctic.zephyr.mod
+# Addon Provider: jurialmunkey, beatmasterrs
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-23 07:52+0000\n"
+"PO-Revision-Date: 2023-01-22 10:15+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-arctic-zephyr-mod/tr_tr/>\n"
 "Language: tr_tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.1\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
@@ -90,7 +90,7 @@ msgid "Colored icon media flags"
 msgstr ""
 
 msgctxt "#31018"
-msgid "Arctic: Zephyr - Phoenix"
+msgid "Arctic: Zephyr - Reloaded"
 msgstr ""
 
 msgctxt "#31019"
@@ -554,7 +554,7 @@ msgid "All colors are reset to their default values"
 msgstr ""
 
 msgctxt "#31137"
-msgid "[CR]Arctic: Zephyr - Phoenix is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
 msgstr ""
 
 msgctxt "#31138"
@@ -2575,12 +2575,24 @@ msgstr ""
 
 msgctxt "#31701"
 msgid "Color palette"
+msgstr "Renk paleti"
+
+msgctxt "#31702"
+msgid "Use thumb for episodes background"
+msgstr ""
+
+msgctxt "#31703"
+msgid "Small landscape"
+msgstr ""
+
+msgctxt "#31704"
+msgid "Small fanart"
+msgstr ""
+
+msgctxt "#31705"
+msgid "Small poster fanart"
 msgstr ""
 
 #~ msgctxt "#31179"
 #~ msgid "Show clearlogo"
 #~ msgstr "Clearlogo göster"
-
-msgctxt "#31702"
-msgid "Hide scrollbar"
-msgstr "Hide scrollbar"

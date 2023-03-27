@@ -1,21 +1,21 @@
 # Kodi Media Center language file
-# Addon Name: Arctic: Zephyr - Phoenix
-# Addon id: skin.arctic.zephyr.phoenix
-# Addon Provider: rockafella83
+# Addon Name: Arctic: Zephyr - Reloaded
+# Addon id: skin.arctic.zephyr.mod
+# Addon Provider: jurialmunkey, beatmasterrs
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Skins\n"
-"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-23 07:52+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-03-24 19:13+0000\n"
+"Last-Translator: rimasx <riks_12@hot.ee>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-arctic-zephyr-mod/et_ee/>\n"
 "Language: et_ee\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
@@ -90,7 +90,7 @@ msgid "Colored icon media flags"
 msgstr ""
 
 msgctxt "#31018"
-msgid "Arctic: Zephyr - Phoenix"
+msgid "Arctic: Zephyr - Reloaded"
 msgstr ""
 
 msgctxt "#31019"
@@ -395,7 +395,7 @@ msgstr ""
 
 msgctxt "#31097"
 msgid "RSS Feed"
-msgstr ""
+msgstr "RSS kanal"
 
 msgctxt "#31098"
 msgid "Flip list and info"
@@ -427,7 +427,7 @@ msgstr ""
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "Rambivalguses"
 
 msgctxt "#31106"
 msgid "Finishes at"
@@ -554,7 +554,7 @@ msgid "All colors are reset to their default values"
 msgstr ""
 
 msgctxt "#31137"
-msgid "[CR]Arctic: Zephyr - Phoenix is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
 msgstr ""
 
 msgctxt "#31138"
@@ -767,7 +767,7 @@ msgstr "Kuva ikoonid"
 
 msgctxt "#31191"
 msgid "Directed by"
-msgstr "Režissöör"
+msgstr "Lavastaja"
 
 msgctxt "#31192"
 msgid "Movie Hub"
@@ -839,7 +839,7 @@ msgstr "Kinodes"
 
 msgctxt "#31209"
 msgid "Upcoming"
-msgstr ""
+msgstr "Tulemas"
 
 msgctxt "#31210"
 msgid "Popular"
@@ -2578,5 +2578,17 @@ msgid "Color palette"
 msgstr ""
 
 msgctxt "#31702"
-msgid "Hide scrollbar"
-msgstr "Hide scrollbar"
+msgid "Use thumb for episodes background"
+msgstr ""
+
+msgctxt "#31703"
+msgid "Small landscape"
+msgstr ""
+
+msgctxt "#31704"
+msgid "Small fanart"
+msgstr ""
+
+msgctxt "#31705"
+msgid "Small poster fanart"
+msgstr ""

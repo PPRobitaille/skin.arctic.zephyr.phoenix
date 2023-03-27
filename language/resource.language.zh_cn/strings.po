@@ -1,13 +1,13 @@
 # Kodi Media Center language file
-# Addon Name: Arctic: Zephyr - Phoenix
-# Addon id: skin.arctic.zephyr.phoenix
-# Addon Provider: rockafella83
+# Addon Name: Arctic: Zephyr - Reloaded
+# Addon id: skin.arctic.zephyr.mod
+# Addon Provider: jurialmunkey, beatmasterrs
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Skins\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-23 07:52+0000\n"
+"PO-Revision-Date: 2023-01-22 10:15+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-arctic-zephyr-mod/zh_cn/>\n"
 "Language: zh_cn\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.1\n"
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
@@ -90,8 +90,8 @@ msgid "Colored icon media flags"
 msgstr "彩色图标媒体标识"
 
 msgctxt "#31018"
-msgid "Arctic: Zephyr - Phoenix"
-msgstr "ARTIC: Zephyr - Phoenix"
+msgid "Arctic: Zephyr - Reloaded"
+msgstr "ARTIC: ZEPHYR - RELOADED"
 
 msgctxt "#31019"
 msgid "Supported Addons"
@@ -554,8 +554,8 @@ msgid "All colors are reset to their default values"
 msgstr "所有颜色重置为默认值"
 
 msgctxt "#31137"
-msgid "[CR]Arctic: Zephyr - Phoenix is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
-msgstr "[CR]Arctic: Zephyr - Phoenix是从jurialmunkey设计的Arctic皮肤衍生而来。[CR]此皮肤着重强调简洁。[CR]如果你对此有任何建议，都可到此反馈给我。[CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
+msgstr "[CR]Arctic: Zephyr - Reloaded是从jurialmunkey设计的Arctic皮肤衍生而来。[CR]此皮肤着重强调简洁。[CR]如果你对此有任何建议，都可到此反馈给我。[CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
 
 msgctxt "#31138"
 msgid "Content Loading"
@@ -2575,6 +2575,22 @@ msgstr ""
 
 msgctxt "#31701"
 msgid "Color palette"
+msgstr "调色板"
+
+msgctxt "#31702"
+msgid "Use thumb for episodes background"
+msgstr ""
+
+msgctxt "#31703"
+msgid "Small landscape"
+msgstr ""
+
+msgctxt "#31704"
+msgid "Small fanart"
+msgstr ""
+
+msgctxt "#31705"
+msgid "Small poster fanart"
 msgstr ""
 
 #~ msgctxt "#31179"
@@ -2612,7 +2628,3 @@ msgstr ""
 #~ msgctxt "#31070"
 #~ msgid "Hide votes"
 #~ msgstr "隐藏投票"
-
-msgctxt "#31702"
-msgid "Hide scrollbar"
-msgstr "Hide scrollbar"
