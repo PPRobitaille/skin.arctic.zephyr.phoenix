@@ -127,7 +127,7 @@
                 </control>
             </control>
             <control type="scrollbar" id="1616">
-                <include content="scrollbar_hor">
+                <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_hor">
                     <param name="scrollid" value="1616"/>
                     <param name="bottom" value="474"/>
                 </include>

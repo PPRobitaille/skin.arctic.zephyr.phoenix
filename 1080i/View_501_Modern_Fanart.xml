@@ -62,7 +62,7 @@
                 <control type="group">
                     <right>0</right>
                     <control type="scrollbar" id="1602">
-                        <include content="scrollbar_vertical">
+                        <include condition="!Skin.HasSetting(disable.scrollbar.visibility)" content="scrollbar_vertical">
                             <param name="scrollid" value="1602"/>
                             <param name="posy" value="216"/>
                             <param name="height" value="648"/>
