@@ -2616,3 +2616,7 @@ msgstr ""
 #~ msgctxt "#31311"
 #~ msgid "Hide play/tauko info"
 #~ msgstr "Piilota toisto/pysäytys info"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

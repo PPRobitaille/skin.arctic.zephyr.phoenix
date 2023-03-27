@@ -2628,3 +2628,7 @@ msgstr ""
 #~ msgctxt "#31070"
 #~ msgid "Hide votes"
 #~ msgstr "隐藏投票"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

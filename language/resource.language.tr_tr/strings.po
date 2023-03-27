@@ -2596,3 +2596,7 @@ msgstr ""
 #~ msgctxt "#31179"
 #~ msgid "Show clearlogo"
 #~ msgstr "Clearlogo göster"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

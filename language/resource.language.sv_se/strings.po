@@ -2600,3 +2600,7 @@ msgstr ""
 #~ msgctxt "#31149"
 #~ msgid "Replace widget fanart with home background slideshow"
 #~ msgstr "Ersätt widget fanart med bildspel för hem bakgrunden"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

@@ -2600,3 +2600,7 @@ msgstr ""
 #~ msgctxt "#31149"
 #~ msgid "Replace widget fanart with home background slideshow"
 #~ msgstr "Pakeisti valdiklio Fanart pradinio ekrano fono skaidrių peržiūra"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

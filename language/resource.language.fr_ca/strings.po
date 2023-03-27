@@ -2604,3 +2604,7 @@ msgstr ""
 #~ msgctxt "#31149"
 #~ msgid "Replace widget fanart with home background slideshow"
 #~ msgstr "Remplacer le fanart de widget par le diaporama d'arrière-plan de l'accueil"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Masquer la barre de défilement"

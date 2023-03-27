@@ -2640,3 +2640,7 @@ msgstr ""
 #~ msgctxt "#31660"
 #~ msgid "On right, show player controls"
 #~ msgstr "Bei nach rechts, Player-Bedienelemente anzeigen"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

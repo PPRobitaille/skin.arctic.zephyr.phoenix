@@ -2743,3 +2743,7 @@ msgstr "Poster fanart piccolo"
 #~ msgctxt "#31382"
 #~ msgid "centre"
 #~ msgstr "Centrale"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

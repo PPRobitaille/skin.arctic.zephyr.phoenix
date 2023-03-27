@@ -2612,3 +2612,7 @@ msgstr ""
 #~ msgctxt "#31007"
 #~ msgid "Titel-overlays (symbole-view)"
 #~ msgstr "Titel-overlays (symbole-view)"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"

@@ -2644,3 +2644,7 @@ msgstr "Petit poster fanart"
 #~ msgctxt "#31055"
 #~ msgid "In Progress"
 #~ msgstr "En cours"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Masquer la barre de défilement"

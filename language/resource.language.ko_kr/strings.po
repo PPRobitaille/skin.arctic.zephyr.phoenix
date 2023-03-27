@@ -2639,3 +2639,7 @@ msgstr ""
 #~ msgctxt "#31223"
 #~ msgid "cast"
 #~ msgstr "출연진"
+
+msgctxt "#31750"
+msgid "Hide scrollbar"
+msgstr "Hide scrollbar"
