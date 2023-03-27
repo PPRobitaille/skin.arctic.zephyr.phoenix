@@ -28,7 +28,7 @@
         </include>
         <include content="def_focusposition" condition="Skin.HasSetting(521.alternative)">
             <param name="focusposition" value="5" />
-        </include>        
+        </include>
         <viewtype label="31491">list</viewtype>
         <include>ScrolltimeViewsList</include>
         <itemlayout height="325" width="222">
